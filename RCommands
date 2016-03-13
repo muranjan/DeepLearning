@@ -1,0 +1,2 @@
+// To find all the factor columns from a data frame
+names(grep("factor", sapply(train, class), value=TRUE)) 
